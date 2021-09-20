@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 15px 30px 15px 30px;
+    top: 0;
+    text-decoration: none;
+
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.key-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.challenge {
+    font-size: 2.75vw;
+    padding-bottom: 50px;
+}
+
+.question {
+    text-align: center;
+    font-size: 1.25vw;
+    width: 40%;
+    padding-bottom: 50px;
+}
+
+.button-select {
+    width: 120px;
+    height: 55px;
+}
+
+#answers {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.answer-select {
+
+    width: 220px;
+    height: 55px;
+    padding: 15px 15px 15px 15px;
+
+}
