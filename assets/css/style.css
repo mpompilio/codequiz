@@ -62,5 +62,28 @@ header ul {
     width: 220px;
     height: 55px;
     padding: 15px 15px 15px 15px;
+    display: none;
+}
 
+.high-score {
+    width: 220px;
+    height: 55px;
+    padding: 15px 15px 15px 15px;
+    display: none;
+}
+
+.play-again {
+    width: 220px;
+    height: 55px;
+    padding: 15px 15px 15px 15px;
+    display: none;
+}
+
+
+.name {
+    display: none;
+}
+
+.scoreList {
+    display: none;
 }
